@@ -1,4 +1,6 @@
-body
+<link rel="stylesheet" type="text/css" href="reset.webarchive"
+/**** CSS After Eric Meyer CSS rester ****/
+body {
   font-size: 14px;
 }
 
@@ -8,7 +10,7 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -19,7 +21,9 @@ h1 {
   font-family sans-serif;
   font-size: 2em;
 }
-
+/****Div Elements with background color altered ****/
+div{
+background-color: purple;
 .example, h3 {
   padding-top: 30px;
   text-align center
@@ -34,3 +38,4 @@ h3 {
   height: 100px;
   margin 10px 0;
   width: 100%;
+}}
